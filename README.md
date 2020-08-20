@@ -6,7 +6,7 @@ Python communication library for Ledger Hardware Wallet products
 Requirements
 -------------
 
-This API is available on pip - install with pip install btchip-python 
+This API is available on pip - install with pip install btchip-qtum 
 
 Building on a Unix platform requires libusb-1.0-0-dev and libudev-dev installed previously
 
@@ -22,16 +22,4 @@ Building on Windows
   - Download and install PyQt4 for Python 2.7 from https://www.riverbankcomputing.com/software/pyqt/download 
   - Install the btchip library (open a command prompt and enter c:\python27\scripts\pip install btchip)
   
-Building/Installing on FreeBSD
-------------------------------
-  
-On FreeBSD you can install the packages:
-
-    pkg install security/py-btchip-python
-
-or build via ports:
-
-    cd /usr/ports/security/py-btchip-python
-    make install clean
-
   

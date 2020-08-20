@@ -16,5 +16,7 @@
 *   limitations under the License.
 ********************************************************************************
 """
-__version__ = "0.1.30"
+__version__ = "0.1.30.1"
+
+QTUM_OPSENDER_SUPPORT = True
 
